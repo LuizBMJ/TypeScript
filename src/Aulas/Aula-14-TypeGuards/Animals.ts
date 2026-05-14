@@ -1,7 +1,5 @@
 
 
-// instanceof
-
 class Dog {
     bark() {
         console.log("Woof!");
@@ -22,8 +20,6 @@ function makeSound(animal: Dog | Cat) {
     }
 }
 
-
-// in
 
 interface Fish {
     swim: () => void;

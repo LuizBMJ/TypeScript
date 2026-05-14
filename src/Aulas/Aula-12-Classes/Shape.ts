@@ -32,7 +32,6 @@ class Circle extends Shape {
 }
 
 const circle = new Circle(5);
-circle.area(); // 78.53981633974483
-circle.perimeter(); // 31.41592653589793
-circle.describe(); // Círculo com raio 5
-                    // Área: 78.53981633974483, Perímetro: 31.41592653589793
+circle.area();
+circle.perimeter();
+circle.describe();

@@ -34,18 +34,18 @@ function createTriangle(arg1: number, arg2?: number, arg3?: number): Triangles {
 }
 
 const equilateral = createTriangle(5);
-console.log(equilateral.type); // equilateral
-console.log(equilateral.sideA); // 5
+console.log(equilateral.type);
+console.log(equilateral.sideA);
 
 const isosceles = createTriangle(5, 3);
-console.log(isosceles.type); // isosceles
-console.log(isosceles.sideA); // 5
-console.log(isosceles.sideB); // 3
+console.log(isosceles.type);
+console.log(isosceles.sideA);
+console.log(isosceles.sideB);
 
 const scalene = createTriangle(3, 4, 5);
-console.log(scalene.type); // scalene
-console.log(scalene.sideA); // 3
-console.log(scalene.sideB); // 4
-console.log(scalene.sideC); // 5
+console.log(scalene.type);
+console.log(scalene.sideA);
+console.log(scalene.sideB);
+console.log(scalene.sideC);
 
 

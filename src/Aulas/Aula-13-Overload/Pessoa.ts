@@ -30,5 +30,5 @@ function generate(type: "person" | "dog" | "house"){
 }
 
 const person = generate("person");
-console.log(person.name); // Alice
-console.log(person.age); // 30
+console.log(person.name);
+console.log(person.age);

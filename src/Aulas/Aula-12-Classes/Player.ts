@@ -44,8 +44,8 @@ export class Player {
     private die(damager?: Player): void {
         if (damager) {
             console.log(`${this.name} foi derrotado por ${damager.name}!`);
-          this.level = 1; // Reseta o nível do jogador derrotado
-          damager.level += 1; // O jogador que causou a derrota ganha um nível
+          this.level = 1;
+          damager.level += 1;
             console.log(`${damager.name} subiu para o nível ${damager.level}!`);
         } else {
             console.log(`${this.name} foi derrotado!`);
@@ -56,8 +56,8 @@ export class Player {
 const player1 = new Player("Jorge", 5, 100);
 const player2 = new Player("Marya", 3, 80);
 
-player1.getHealth(); // 100
-player1.getLevel(); // 5
+player1.getHealth();
+player1.getLevel();
 
 
-player1.damage(100, player2); // Marya causou dano em Jorge! Jorge foi derrotado por Marya! Marya subiu para o nível 4!
+player1.damage(100, player2);

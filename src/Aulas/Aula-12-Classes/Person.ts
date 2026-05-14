@@ -35,7 +35,7 @@ class CEO extends Employee {
 }
 
 const employee = new Employee("João", 30);
-employee.introduce(); // Olá, meu nome é João e tenho 30 anos.
+employee.introduce();
 const ceo = new CEO("Maria", 40);
-ceo.introduce(); // Olá, meu nome é Maria e tenho 40 anos.
-ceo.invest(); // Maria está investindo na empresa.
+ceo.introduce();
+ceo.invest();

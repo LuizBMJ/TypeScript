@@ -1,6 +1,4 @@
 
-// typeof
-
 function printValue(value: string | number) {
     if (typeof value === "string") {
         console.log(`O valor é uma string: ${value}`);

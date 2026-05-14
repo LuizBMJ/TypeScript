@@ -40,10 +40,10 @@ function buildComponent(id: string, label: string, arg: string | string[] | Inpu
 }
 
 const button = buildComponent("btn1", "Submit", "primary");
-console.log(button.style); // primary
+console.log(button.style);
 
 const selectMenu = buildComponent("sel1", "Country", ["USA", "Canada", "Mexico"]);
-console.log(selectMenu.options); // ["USA", "Canada", "Mexico"]
+console.log(selectMenu.options);
 
 const input = buildComponent("inp1", "Age", InputType.Number);
-console.log(input.type); // Number
+console.log(input.type);

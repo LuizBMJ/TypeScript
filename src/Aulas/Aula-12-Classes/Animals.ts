@@ -28,4 +28,4 @@ class Dog extends Animal {
 }
 
 const dog = new Dog("Rex", 5, "Labrador");
-dog.makeSound(); // Rex late!
+dog.makeSound();

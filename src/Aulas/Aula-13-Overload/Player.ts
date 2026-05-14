@@ -11,10 +11,10 @@ class Player {
     this.name = name;
     if (typeof arg === "string") {
       this.nickname = arg;
-      this.health = 100; // Valor padrão para health
+      this.health = 100;
     } else {
       this.health = arg;
-      this.nickname = "Unknown"; // Valor padrão para nickname
+      this.nickname = "Unknown";
     }
   }
 }
