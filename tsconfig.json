@@ -4,12 +4,21 @@
         "skipLibCheck": true,
         "strict": true,
         "lib": ["ESNext"],
-        "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
+
+        "target": "esnext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
         
-        "outDir": "dist",
-        "rootDir": "src"
+        "outDir": "./dist",
+        "rootDir": "./src",
+
+        "types": ["node"],
+
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmitOnError": true,
+
+        "verbatimModuleSyntax": true
     },
     "include": ["src"],
     "exclude": ["node_modules"]
