@@ -1,11 +1,9 @@
 {
   "name": "typescript",
-  "main": "build/index.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx ./src/index.ts",
-    "start": "node ."
+    "dev": "echo \"Execute uma aula específica, ex: npx tsx ./src/Aulas/Aula-04-TypeAnotations/index.ts\""
   },
   "devDependencies": {
     "@types/node": "^25.8.0",

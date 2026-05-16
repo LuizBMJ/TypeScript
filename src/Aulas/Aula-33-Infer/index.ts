@@ -32,7 +32,7 @@ type AnotherParams = Parameter<(x: boolean, y: string, z: object) => number>;
 type InstanceType<T> = T extends new (...args: any[]) => infer R ? R : never;
 
 class Animal {
-    name: string;
+    name!: string;
 }
 
 type AnimalInstance = InstanceType<typeof Animal>;

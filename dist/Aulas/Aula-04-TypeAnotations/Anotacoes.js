@@ -1,4 +1,3 @@
-/// <reference lib="dom" />
 let nome = "Jorge";
 let idade = 25;
 let ativo = true;
