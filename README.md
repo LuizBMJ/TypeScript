@@ -1,79 +1,69 @@
-# TypeScript - Exercícios
+# TypeScript Exercises
 
-Repositório de exercícios do curso de TypeScript do canal [Rincko Dev](https://www.youtube.com/@RinckoDev).
+> TypeScript exercises covering fundamentals, OOP, generics, utility types, and more
 
-## Pré-requisitos
+![Badge](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
+![Badge](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)
+![Badge](https://img.shields.io/badge/npm-CB3837?style=flat-square\&logo=npm\&logoColor=white)
+![Badge](https://img.shields.io/badge/License-MIT-yellow?style=flat-square\&logo=open-source-initiative\&logoColor=white)
 
-- Node.js instalado
-- npm ou yarn
+---
 
-## Como executar
+## 📌 Overview
+
+This repository contains exercises and examples developed during the TypeScript course from the Rincko Dev YouTube channel.
+The project covers essential TypeScript concepts ranging from basic typing to advanced type manipulation techniques.
+It was created as a study repository focused on hands-on practice and experimentation with the TypeScript ecosystem.
+
+## 🛠️ Technologies
+
+* **TypeScript** — Main programming language used for the exercises
+* **Node.js** — Runtime environment for executing the project
+* **npm** — Dependency management and script execution
+
+## 📁 Project Structure
 
 ```bash
-# Executar o código em modo desenvolvimento
+.
+├── src/                  # Source files and TypeScript exercises
+├── build/                # Compiled JavaScript output
+├── package.json          # Project dependencies and scripts
+├── tsconfig.json         # TypeScript compiler configuration
+└── README.md             # Project documentation
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/LuizBMJ/typescript-course-exercises.git
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Run the project in development mode:
+
+```bash
 npm run dev
+```
 
-# Compilar o código TypeScript
+Compile the TypeScript code:
+
+```bash
 npm run build
+```
 
-# Executar o código compilado
+Run the compiled JavaScript:
+
+```bash
 npm run start
 ```
 
-## Estrutura das Aulas
+## 📄 License
 
-### Fundamentos
-- Type Annotations
-- Interfaces
-- Type Alias
-- Tuplas
-- Enums
-- Intersections
-- Union Types
-- Tipagem Estática e Dinâmica
-
-### Programação Orientada a Objetos
-- Classes
-
-### Sobrecarga de Funções
-- Function Overload
-
-### Type Guards e Narrowing
-- Type Guards
-- Narrowing
-
-### Generics e Records
-- Generic Types
-- Records
-
-### Mecanismos de Tipo
-- Types Mechanism
-- Typeof
-- Keyof
-
-### Tipos Condicionais
-- Conditional Types
-- Never
-
-### Utility Types
-- Readonly
-- AsConst
-- Pick
-- Omit
-- Partial
-- Required
-- Exclude
-- Extract
-- NonNullable
-- Mapped Types
-
-### Tópicos Avançados
-- Infer
-- Tipagem Recursiva
-- Módulos TypeScript
-- Declare
-- Import Alias
-
-## Licença
-
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
